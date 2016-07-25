@@ -4,7 +4,16 @@ import { Accordion } from '../../directives/accordion/accordion';
 
 @Component({
   selector: 'accordion-item',
-  templateUrl: 'build/components/accordion-item/accordion-item.html',
+  template: `
+    <div (click)="click()" class="accordion-item-head" tappable>
+      <ng-content select="accordion-item-head"></ng-content>
+      <ion-icon *ngIf="!active" name="ios-arrow-down" item-right></ion-icon>
+      <ion-icon *ngIf="active" name="ios-arrow-up" item-right primary></ion-icon>
+    </div>
+    <div class="container" #containerElement [ngStyle]="setStyles()">
+      <ng-content select="accordion-item-content"></ng-content>
+    </div>
+  `, //TODO include styles here
   directives: []
 })
 export class AccordionItem {
