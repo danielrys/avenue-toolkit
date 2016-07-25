@@ -13,7 +13,8 @@ import { Accordion } from '../../directives/accordion/accordion';
     <div class="container" #containerElement [ngStyle]="setStyles()">
       <ng-content select="accordion-item-content"></ng-content>
     </div>
-  `, //TODO include styles here
+  `,
+  //styles: [require('./accordion-item.scss')], //TODO make this work
   directives: []
 })
 export class AccordionItem {
