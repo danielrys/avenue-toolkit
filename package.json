@@ -1,0 +1,25 @@
+{
+  "name": "avenue-toolkit",
+  "version": "0.0.1",
+  "description": "A toolkit of Ionic 2 components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielrys/avenue-toolkit.git"
+  },
+  "keywords": [
+    "ionic2",
+    "angular2",
+    "toolkit",
+    "components"
+  ],
+  "author": "Daniel Rys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielrys/avenue-toolkit/issues"
+  },
+  "homepage": "https://github.com/danielrys/avenue-toolkit#readme"
+}
