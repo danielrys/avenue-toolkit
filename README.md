@@ -10,14 +10,15 @@ A single collapsible item. When used with *Accordion directive* and sibling item
  * `import {AccordionItem} from 'avenue-toolkit'`
  * add to `directives` array inside the decorator
  * use inside a template
- ``` html
+
+```html
 <div accordion>
     <accordion-item>
         <accordion-item-head>Displayed clickable title</accordion-item-head>
         <accordion-item-content>Some collapsible content hidden by default.</accordion-item-content>
     </accordion item>
 </div>
- ```
+```
 
 # Directive list
 Following directives are available at the moment.
@@ -27,8 +28,9 @@ Parent directive for the *Accordion item* components. Multiple items can be insi
  * `import {AccordionItem} from 'avenue-toolkit'`
  * add to `directives` array inside the decorator
  * use inside a template
- ``` html
+ 
+```html
 <div accordion>
     <!-- Accordion items-->
 </div>
- ```
+```
