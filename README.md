@@ -2,7 +2,7 @@
  * `npm install https://github.com/danielrys/avenue-toolkit` 
  * import scss files of any used components into your app scss (*TODO* move the scss inline so that this step is not needed)
 
-# Component list
+# Components list
 Following components are available at the moment.
 ## Accordion Item
 A single collapsible item. When used with *Accordion directive* and sibling items, only one at a time is open.
@@ -20,7 +20,7 @@ A single collapsible item. When used with *Accordion directive* and sibling item
 </div>
 ```
 
-# Directive list
+# Directives list
 Following directives are available at the moment.
 ## Accordion
 Parent directive for the *Accordion item* components. Multiple items can be inside an element with this directive.
